@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: auto;
+  font-family:'Courier New',
+    sans-serif;
+    font-weight: lighter;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(229, 225, 238);
+}
+
+code {
+  font-family:'Courier New',
+    monospace;
+    font-weight: lighter;
+
+}
+
+li {
+background-color: rgb(104, 237, 198);
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+border-radius: 20px;
+border-style: solid;
+border-color: #F0B67F;
+}
+li img{
+  background-color: rgb(144, 190, 222);
+  margin:20;
+
+}

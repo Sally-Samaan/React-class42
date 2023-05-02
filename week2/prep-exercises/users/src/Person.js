@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Person({ person }) {
   if (!person) {
     return <p>Loading...</p>;

@@ -1,0 +1,87 @@
+body {
+  margin: 2;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #8DA7BE;
+  border: 3px solid #F6F5AE;
+  color: #477998;
+  padding: 15px 15px;
+  /* margin: 0 0.3em 3em 0.3em; */
+  border-radius: 12px;
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.button:focus {
+  background-color: #DA627D;
+  color: white;
+}
+
+.button:hover {
+  background-color: #DA627D;
+  color: white;
+}
+
+.buttonsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+  gap: 0.4rem;
+  margin: 2px;
+
+}
+
+.Container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 1rem;
+  margin-top: 5em;
+}
+
+.product {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+
+.productImage {
+  width: 500px;
+  height: 300px;
+  object-fit: contain;
+  margin: 2px;
+  padding: 20px;
+
+}
+
+.productTitle {
+  text-decoration: none;
+  font-weight: bold;
+  width: 400px;
+  text-align: center;
+  color: #FCA17D;
+}
+
+h1 {
+color: #FCA17D;
+}
+
+p {
+  color: #477998;
+  background-color: #F6F5AE;
+  padding: 20px;
+  border-radius: 25%;
+}

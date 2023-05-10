@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 import Button from './Button';
-// import { useEffect } from 'react';
 import useFetch from './useFetch';
 const Categories = ({ onClick }) => {
   const { fetchData, data, isLoading, err } = useFetch();

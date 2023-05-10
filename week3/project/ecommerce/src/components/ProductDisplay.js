@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router';
 import useFetch from './useFetch';
-import { useEffect } from 'react';
 import Icon from './Icon';
 
 const ProductDisplay = () => {
